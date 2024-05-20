@@ -89,5 +89,5 @@ def create_ts_file(ts_file_path, df, max_labels):
 # Create .TS files
 X_test = pd.read_csv('X_test.csv', index_col=0)
 X_train = pd.read_csv('X_train.csv', index_col=0)
-create_ts_file(ts_test_path, X_test, 20000)
-create_ts_file(ts_train_path, X_train, 100000)
+create_ts_file(ts_test_path, X_test, 500)
+create_ts_file(ts_train_path, X_train, 2000)
